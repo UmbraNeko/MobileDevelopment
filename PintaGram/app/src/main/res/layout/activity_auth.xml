@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/auth_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple"
+        android:fontFamily="@font/aclonica"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="32dp"/>
+
+    <!-- Name Input (Visible for Registration) -->
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Login/Register Button -->
+    <Button
+        android:id="@+id/auth_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Авторизоваться"
+        android:backgroundTint="@color/purple"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Switch to Registration/Login -->
+    <TextView
+        android:id="@+id/switch_auth_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="У вас ещё нет аккаунта? Зарегистрируйтесь прямо сейчас!"
+        android:textColor="#333333"
+        android:fontFamily="@font/alegreyasc"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

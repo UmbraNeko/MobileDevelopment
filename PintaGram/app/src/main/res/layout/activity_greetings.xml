@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- Logo and Slogan -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="Logo"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pintagram"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple"
+        android:textSize="32sp"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ДРУЗЬЯ РАЗ - ДРУЗЬЯ НАВСЕГДА!"
+        android:fontFamily="@font/alegreyasc"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:paddingTop="16dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:fontFamily=""
+        android:backgroundTint="@color/purple"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/find_friends_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Найти друзей"
+        android:fontFamily=""
+        android:backgroundTint="@color/purple"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

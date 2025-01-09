@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NavigationDrawerApp.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <!-- Цвет фона всплывающего меню -->
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Цвет текста в меню -->
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Цвет текста для выделенных элементов -->
+        <item name="colorPrimary">@color/purple_500</item>
+
+        <!-- Цвет текста для выделенных элементов (иконок) -->
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- Цвет акцента (например, выделения пунктов) -->
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <!-- Радиус углов всплывающего меню -->
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+
+        <!-- Высота и отступы между элементами меню -->
+        <item name="listPreferredItemHeight">56dp</item>
+        <item name="listPreferredItemPaddingLeft">16dp</item>
+    </style>
+
+</resources>
